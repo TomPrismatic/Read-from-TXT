@@ -23,9 +23,9 @@ int DocumentReading::readFileForInt()
 	int sum = 0;
 	int x;
 
-	if (!inputFile) {
+	if (!inputFile)
+	{
 		std::cout << "Unable to open file";
-		exit(1);
 	}
 
 	while (inputFile >> x) 
